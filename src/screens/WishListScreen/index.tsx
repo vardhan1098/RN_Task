@@ -1,14 +1,13 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 import PlaceList from '../PlacesList';
+import styles from './styles';
 
 const WishListScreen = () => {
   return (
     <View
-      style={{
-        flex: 1,
-      }}>
-      <PlaceList/>
+      style={styles.container}>
+      <PlaceList />
     </View>
   );
 };
